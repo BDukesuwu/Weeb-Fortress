@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 // Import the following components
 import AuthPage from '../AuthPage/AuthPage';
 import AnimePage from '../AnimePage/AnimePage';
