@@ -17,6 +17,12 @@ export default function AnimePage() {
     .then(res => res.json())
     .then(json => console.log(json))
     .catch(err => console.error('error:' + err));
+
+    return (
+        <>
+          <h1>Egg</h1>
+        </>
+    );
 }
 
 
