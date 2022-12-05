@@ -12,8 +12,11 @@ export default function NavBar({user, setUser}) {
         <nav>
             <Link to="/animes">Anime List</Link>
             &nbsp; | &nbsp;
+            <Link to="/watchlist">My Watch List</Link>
+            &nbsp; | &nbsp;
             <span>Welcome, {user.name}</span>
-            &nbsp;&nbsp; <Link to={""} onClick={handleLogOut}>Logout</Link>
+            &nbsp;&nbsp;
+            <Link to={""} onClick={handleLogOut}>Logout</Link>
         </nav>
     )
 }
